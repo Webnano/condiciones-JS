@@ -1,0 +1,137 @@
+/*Stylo General*/
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+    background-color: #707499;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background-color: #3F51B5;
+    padding: 20px 0;
+ }
+.menudo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.menudo ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.menudo a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menudo a:hover{
+    text-decoration: underline;
+}
+/*  Fin Stylos General*/
+
+/* Stylos imagen border*/
+
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 40px;
+    padding: 20px;   
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#Captura{
+    width: 250px;
+    height: 350px;
+}
+/*Fin dtylo imagen border*/
+
+/*Stylo Stickers*/
+.monos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#Monitos{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 260px;
+}
+.verifica{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 12px;
+    font-size: 12px;
+}
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+
+/*Fin Stylo Stickers*/
+/*password*/
+.seleccion{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    margin: 10px;
+    background-color: beige;
+    border-radius: 16px;
+    width: 300px;
+    height: 200px;
+
+}
+#Confirmar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Fin password*/
+
